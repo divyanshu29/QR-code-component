@@ -1,0 +1,50 @@
+*{
+    font-family: Outfit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container
+{
+    display: flex;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 42%;
+}
+.Content-box
+{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 280px;
+    height: 410px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.image{
+    border: 5px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 900;
+}
+p{ 
+color:hsl(220, 15%, 55%) ;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
